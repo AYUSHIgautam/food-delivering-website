@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food delivry.com</title>
+  
+    <style>
+    *{
+      
+        padding: 0px;
+        margin: 0px;
+    }
+    #navbar div img{
+    height: 40px;
+    width: 40px;
+    margin: 10px 10px;
+    }
+    #navbar::before{
+        content: " ";
+        background-color: black;
+        width: 100%;
+        height: 40px;
+        z-index: -2;
+        opacity: 0.6;
+        position: absolute;
+    }
+    #navbar{
+        display: flex;
+        align-items: center;
+       
+    }
+    
+    #navbar ul{
+        display: flex;
+    }
+    #navbar ul li{
+        list-style: none;
+      
+        margin: 10px 20px;
+       
+        text-decoration: none;
+    }
+    #navbar ul li a{
+        padding: 0px 10px;
+        text-decoration: none;
+        color: white;
+        display: block;
+        border-radius: 20px;
+    }
+    #navbar ul li a:hover{
+        color: black;
+        background-color: white;
+    }
+    #home::before{
+        content: " ";
+        background: url('ggg.jpg') no-repeat center center/cover;
+        position: absolute;
+        z-index: -2;
+        opacity: 0.8;
+        height: 370px;
+        width: 100%;
+    }
+
+    #home{
+        display: flex;
+        flex-direction: column;
+        padding: 3px 200px;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        height: 200px;
+    }
+
+    .heading{
+        font-family: cursive;
+        font-size: 4rem;
+        padding: 30px;
+       
+    }
+    #home p{
+       font-family: cursive;
+    }
+    .btn{
+        padding: 6px 30px;
+        border :2px solid white;
+        background-color: rgb(197, 131, 131);
+        color:white;
+        margin: 10px;
+        
+    }
+    .btn:hover{
+        color: black;
+        background-color: white;
+        
+    }
+    .service{
+        margin: 10px;
+        display: flex;
+       
+ 
+    }
+    .service .box{
+        border :2px solid brown;
+        margin: 4px;
+        box-shadow: rgb(230, 146, 146) 4px 2px;
+        border-radius: 23px;
+        background-color: rgb(240, 233, 233);
+
+    }
+
+    .service .box img{
+       height: 150px;
+       margin: auto;
+       display: block;
+       padding: 3px;
+     
+    }
+    .center{
+        text-align: center;
+    }
+    .ffff{
+       
+        font-family: cursive;
+        text-align: center; 
+       margin: 80px;
+       margin-bottom: 4px;
+    }
+    .head2{
+        text-align: center; 
+    }
+    #client-section::before{
+        content: " ";
+        position: absolute;
+        background: url('card.jpg');
+        width: 100%;
+        height: 40%;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    #client-section img{
+        height: 150px;
+        width: 150px;
+    }
+    .clints{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item{
+        padding: 34px;
+    }
+    #contact{
+       
+    }
+    #contact::before{
+        content: "";
+        position: absolute;
+        background: url('contact.jpg')no-repeat center center/cover;
+        height: 55%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    #contact .ffff{
+        color: white;
+    }
+    label{
+        color: white;
+    }
+    #contact-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 34px;
+       
+    }
+    #contact-box input,
+    #contact-box textarea{
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 30px;
+    }
+    #contact-box form{
+       
+        width: 40%;
+    }
+    .btnn{
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        border: 2px solid black;
+        background-color: white;
+        display: block;
+        margin: 30px auto;
+    }
+    .btnn:hover{
+        background-color: rgb(167, 164, 164);
+        color: white;
+    }
+   
+ 
+
+
+    </style>
+   
+   
+</head>
+<body>
+    <nav id="navbar">
+        <div id="lodo">
+            <img src="logo.jpg" alt="logo">
+        </div>    
+      <ul>
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">Services</a></li>
+        <li class="item"><a href="#">About Us</a></li>
+        <li class="item"><a href="#">Contact Us</a></li>
+      
+
+      </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="heading">Welcome to online meal</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla at distinctio soluta labore ea! Recusandae?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil maiores dicta rem.</p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <h1 class="ffff"> Owr Services</h1>
+    <section class="service">
+       
+        <div class="box">
+            <img src="ppp.jpg" alt="">
+            <h2 class="head2">Food Odering</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto veritatis, enim recusandae obcaecati accusamus sunt vel nostrum perspiciatis ipsum quis asperiores aut exercitationem temporibus perferendis tempora consequuntur illum harum quae.</p>
+        </div>
+        <div class="box">
+            <img src="llll.jpg" alt="">
+            <h2 class="head2">Food Catering</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto veritatis, enim recusandae obcaecati accusamus sunt vel nostrum perspiciatis ipsum quis asperiores aut exercitationem temporibus perferendis tempora consequuntur illum harum quae.</p>
+        </div>
+        <div class="box">
+            <img src="uuuu.jpg" alt="">
+            <h2 class="head2">Bulk Odering</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto veritatis, enim recusandae obcaecati accusamus sunt vel nostrum perspiciatis ipsum quis asperiores aut exercitationem temporibus perferendis tempora consequuntur illum harum quae.</p>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="ffff">Our Clients</h1>
+        <div class="clints">
+           
+            <div class="item">
+                <img src="client2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="client3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="client4.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="ffff">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="group">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                <div class="group">
+                    <label for="email">Email:</label>
+                    <input type="text" placeholder="Enter Your Email">
+                </div>
+                <div class="group">
+                    <label for="phoneno">Phone Number:</label>
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                <div class="group">
+                    <label for="name">Message:</label>
+                   <textarea name="Messagr" id="gygh" cols="30" rows="2"></textarea>
+                </div>
+                <div>
+                    <button class="btnn">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

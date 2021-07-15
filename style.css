@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+   
+}
+img{
+    height: 40px;
+    width: 40px;
+}
